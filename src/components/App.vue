@@ -16,8 +16,8 @@
 <script lang="ts">
 import Vue from "vue";
 
-import Hello from "./Hello.vue";
-import HelloJs from "./HelloJs.vue";
+import Hello from "@/components/Hello.vue";
+import HelloJs from "@/components/HelloJs.vue";
 
 export default Vue.extend({
     components: {Hello, HelloJs},

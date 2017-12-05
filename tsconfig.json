@@ -5,7 +5,14 @@
         "module": "esnext",
         "moduleResolution": "node",
         "target": "es5",
-        "allowJs": true
+        "allowJs": true,
+
+        "baseUrl": ".",
+        "paths": {
+            "@/*": [
+                "./src/*"
+            ]
+        }
     },
     "include": [
         "./src/**/*"
