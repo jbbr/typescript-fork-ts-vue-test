@@ -13,6 +13,7 @@
   },
   "devDependencies": {
     "css-loader": "^0.28.7",
+    "fork-ts-checker-webpack-plugin": "git://github.com/prograhammer/fork-ts-checker-webpack-plugin.git#vue",
     "ts-loader": "^3.2.0",
     "typescript": "^2.6.2",
     "vue-loader": "^13.5.0",
